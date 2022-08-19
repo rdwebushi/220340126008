@@ -20,11 +20,11 @@ client.on("connect", function(res, err) {
 
 client.on("message", function(topic, data) {
     var thing = mqtt.connect("mqtt://demo.thingsboard.io/", {
-        username : "Q1"
+        username : "d123"
     })
     thing.on('connect', function() {
         console.log('connected')
-        thing.publish('v1/devices/q123/telemetry', data, function(err) {
+        thing.publish('v1/devices/d123/telemetry', data, function(err) {
             if(err) {
                 console.log(err)
             }

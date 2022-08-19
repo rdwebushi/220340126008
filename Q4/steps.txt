@@ -1,15 +1,21 @@
-1. create python code to take user inpute and perform square of two numbers.
+step 1: Create a python application named as factorial.py
+write code in it,
 
-2. now create a Dockerfile and add following necessary command in it
----> take a image name from docker hub
----> create dir in container by using WORKDIR command
----> copy all necessary file to docker by using COPY command
+step 2: Create a Dockerfile without using any extensions
 
-3. final step
-run Dockerfile using command 
--- sudo docker built -t square:v1 .
--- sudo docker run -it square:v1
+then, build and run the python application using these commands
 
 
-4. now push image to docker hub
-	docker push rushikesh:f1
+step 3: sudo docker build -t square .
+
+step 4:sudo docker run -it square  OR sudo docker run --name fact -it square
+
+RUN the container and hold on:
+
+To verify that workdir is created and python file is copied inside conatiner
+
+RUN the command inside shell --> use sudo docker exec
+
+sudo docker ps  # it shows running docker
+
+

@@ -1,0 +1,8 @@
+step 1: Go to thingsboard
+step 2: Create device
+step 3:Create access token
+
+step 4:Run publisher  node publisher.js
+step 5:Run subscriber node subscriber.js
+
+ 

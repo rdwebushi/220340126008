@@ -1,0 +1,12 @@
+step 1: git clone https://github.com/rdwebushi/220340126008.git
+step 2: initialise the git 
+	git init
+step 3: put the data into local repositery
+step 4: add filt to git
+	git add .
+step 5: git commit -m "massages as per updates"
+step 6: git push https://github.com/rdwebushi/220340126008.git
+	enter username and personal access token
+step 7: repeate from step 3 to step 6 after making any changes to local repostory
+
+  
