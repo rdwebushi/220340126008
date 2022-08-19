@@ -19,3 +19,5 @@ RUN the command inside shell --> use sudo docker exec
 sudo docker ps  # it shows running docker
 
 
+
+
